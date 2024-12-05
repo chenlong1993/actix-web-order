@@ -15,6 +15,5 @@ uuid = {version= "1.11.0", features = ["v4"] }
 
 [database]
 
-
 [logging]
 level = "info"
