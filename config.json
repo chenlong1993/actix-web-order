@@ -5,7 +5,7 @@
   },
   "dao": {
     "user": "root",
-    "password": "Scdggrjvi84b",
+    "password": "Scdggrjvi84bw",
     "address": "localhost",
     "database": "actix_user_crud",
     "port": "3306"
