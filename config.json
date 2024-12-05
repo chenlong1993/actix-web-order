@@ -1,0 +1,13 @@
+{
+  "app": {
+    "url": "127.0.0.1",
+    "port": 8000
+  },
+  "dao": {
+    "user": "root",
+    "password": "Aa@948101149",
+    "address": "localhost",
+    "database": "actix_user_crud",
+    "port": "3306"
+  }
+}

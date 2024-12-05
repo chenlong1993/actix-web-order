@@ -1,0 +1,24 @@
+[package]
+name = "actix_web_order"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+env_logger = "0.11.5"
+log = "0.4.22"
+sqlx = { version = "0.8.0", features = [ "runtime-tokio", "mysql"] }
+toml = "0.8.19"
+serde = { version = "1.0.215", features = ["derive"] }
+serde_json = "1.0.133"
+uuid = {version= "1.11.0", features = ["v4"] }
+
+[database]
+host = "jdbc:mysql://cartgo-master-outer-rds.zfkunyu.com"
+port = 3306
+user = "lb_db_rw"
+password = "kF8EZFUpb5cBSvrc0BLNXj3rTEooXaGe"
+database_name = "ec_oms"
+
+[logging]
+level = "info"
